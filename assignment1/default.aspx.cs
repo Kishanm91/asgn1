@@ -58,12 +58,11 @@ namespace assignment1
             PointDisLbl.Text = gameScored.ToString();
             PointAllowedDisLbl.Text = gameAllowed.ToString();
             PointDiffDisLbl.Text = pointdiff.ToString();
-            TotalSpec.Text = gameSpectator.ToString();
-            TotalDisSpectator.Text = avgSpec.ToString();
 
+            TotalSpec.Text = "Total Spectators: " + gameSpectator.ToString();
+            AverageSpec.Text = "Average Spectators: " + avgSpec.ToString();
 
-            AverageSpec.Text = avgSpec.ToString();
-
+          
         }
         
     }
